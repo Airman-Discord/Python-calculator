@@ -1,24 +1,28 @@
 print("Python Calculator")
 
-first_num = float(input("Enter your first number: "))
+loop = True
 
-operation = input("Enter your operation: ")
+while loop == True:
 
-second_num = float(input("Enter your second number: "))
+    first_num = float(input("Enter your first number: "))
 
-if operation == "+":
-    print(first_num + second_num)
+    operation = input("Enter your operation: ")
 
-elif operation == "-":
-    print(first_num - second_num)
+    second_num = float(input("Enter your second number: "))
 
-elif operation == "*":
-    print(first_num * second_num)
+    if operation == "+":
+        print(first_num + second_num)
 
-elif operation == "/":
-    print(first_num / second_num)
+    elif operation == "-":
+        print(first_num - second_num)
 
-else:
-    print("invalid")
+    elif operation == "*":
+        print(first_num * second_num)
+
+    elif operation == "/":
+        print(first_num / second_num)
+
+    else:
+        print("invalid")
 
 
